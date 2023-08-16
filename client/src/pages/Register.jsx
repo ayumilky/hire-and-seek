@@ -25,16 +25,16 @@ const Register = () => {
       <Form method="post" className="form">
         <Logo />
         <h4>Register</h4>
-        <FormRow type="text" name="name" defaultValue="ayumi" />
+        <FormRow type="text" name="name" />
         <FormRow
           type="text"
           name="lastName"
           labelText="last name"
           defaultValue="li"
         />
-        <FormRow type="text" name="location" defaultValue="Canada" />
-        <FormRow type="email" name="email" defaultValue="ayumi@gmail.com" />
-        <FormRow type="password" name="password" defaultValue="ayumipassword" />
+        <FormRow type="text" name="location" />
+        <FormRow type="email" name="email" />
+        <FormRow type="password" name="password" />
         <SubmitBtn />
         <p>
           Already a member?
